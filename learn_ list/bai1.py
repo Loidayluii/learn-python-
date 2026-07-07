@@ -29,3 +29,35 @@ list4 = [1,2,3,4,5]
 print(len(list4))
 print(max(list4))
 print(min(list4))
+#duyet cac phan tu trong list 
+'''
+a = (34,54,67,21,78,97,45,44,80,19)
+total = 0
+for i in a:
+   total += i
+print ("Tong =", total)
+'''
+#range(start , end , step) voi start = 0 , end = n - 1 , step = 1 
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+'''
+chan = []
+le = []
+
+for x in numbers:
+    if x % 2 == 0:
+        chan.append(x)
+    else:
+        le.append(x)
+
+print("Số chẵn:", chan)
+print("Số lẻ:", le)'''
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in range(len(numbers)):
+    if numbers[i] % 2 == 0:
+        print(numbers[i], "la so chan")
+    else:
+        print(numbers[i], "la so le")
+
