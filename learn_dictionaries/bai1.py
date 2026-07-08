@@ -23,3 +23,9 @@ for key in keys:
     print(key)
 for value in values:
     print(value)
+
+item = capitals.items()
+print(item)
+
+for key,value in capitals.items():
+  print(f"{key} ,{values}")
