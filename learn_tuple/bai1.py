@@ -23,8 +23,12 @@ print("du doan doanh thu quy sau:", doanh_thu_quy_sau)
 #Unpacking
 # Ví dụ Unpack Tuple
 thong_tin_ca_nhan = ("Nguyễn Văn A", 30, "Hà Nội")
-ten, tuoi, dia_chi = thong_tin_ca_nhan
+ten , tuoi , dia_chi  = thong_tin_ca_nhan 
 
 print("Tên:", ten)
 print("Tuổi:", tuoi)
 print("Địa chỉ:", dia_chi)
+# khi so luong bien it hon so luong phan tu trong tuple
+tup1 = (10, 20, 30)
+x, *y = tup1
+print("x: ", x, "y: ", y)
