@@ -11,3 +11,9 @@ print(my_set)
 # set comprehensions
 binh_phuong = { x ** 2 for x in range(1,6)}
 print(binh_phuong)
+
+Set = {x for x in range(1,11) if x % 2 == 0 }
+print(Set)
+
+nest_set = {(x,y) for x in range(1,3) for y in range(1,3)}
+print(nest_set)  # { (1,1) (1,2) (2,1) (2,2) }
