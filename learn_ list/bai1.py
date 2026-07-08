@@ -60,4 +60,20 @@ for i in range(len(numbers)):
         print(numbers[i], "la so chan")
     else:
         print(numbers[i], "la so le")
+        '''
+        len()
+
+split() : tách chuỗi theo chuỗi ký tự 
+ 
+a = "xin , chao , toi , la , Loi "
+print(a.split(","))
+# kết quả : [xin , chao , toi , la , Loi]
+replace() : thay the 
+text = "Xin chào thế giới"
+result = text.replace("thế giới", "Python")
+# Kết quả: 'Xin chào Python'
+
+strip()  : loại bỏ các khoảng trắng thừa 
+
+'''
 
